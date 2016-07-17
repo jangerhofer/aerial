@@ -12,7 +12,8 @@
 		2C1C57491CEBBC1600786853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C573F1CEBBC1600786853 /* Main.storyboard */; };
 		2C1C574B1CEBBC1600786853 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C1C57421CEBBC1600786853 /* Info.plist */; };
 		2C1C574C1CEBBC1600786853 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1C57431CEBBC1600786853 /* ViewController.swift */; };
-		2C8D706B1CEBBBA300DAD584 /* b1-1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 2C8D704E1CEBBBA300DAD584 /* b1-1.mov */; };
+		2C612D7E1D3C31680074BD2D /* b1-1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 2C612D7D1D3C31680074BD2D /* b1-1.mov */; };
+		2C612D801D3C31E70074BD2D /* b6-2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 2C612D7F1D3C31E70074BD2D /* b6-2.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,8 @@
 		2C1C57401CEBBC1600786853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C1C57421CEBBC1600786853 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C1C57431CEBBC1600786853 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C8D704E1CEBBBA300DAD584 /* b1-1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "b1-1.mov"; sourceTree = "<group>"; };
+		2C612D7D1D3C31680074BD2D /* b1-1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "b1-1.mov"; path = "../../../../../Library/Caches/Aerial/b1-1.mov"; sourceTree = "<group>"; };
+		2C612D7F1D3C31E70074BD2D /* b6-2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "b6-2.mov"; path = "../../../../../Library/Caches/Aerial/b6-2.mov"; sourceTree = "<group>"; };
 		C4C6FE421ADBF8B200EAA7A9 /* Aerial ScreenSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aerial ScreenSaver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C6FE571ADBF8B200EAA7A9 /* Aerial ScreenSaver.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aerial ScreenSaver.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,7 +71,8 @@
 		2C8D704D1CEBBBA300DAD584 /* Aerial */ = {
 			isa = PBXGroup;
 			children = (
-				2C8D704E1CEBBBA300DAD584 /* b1-1.mov */,
+				2C612D7D1D3C31680074BD2D /* b1-1.mov */,
+				2C612D7F1D3C31E70074BD2D /* b6-2.mov */,
 			);
 			name = Aerial;
 			path = ../../Library/Caches/Aerial;
@@ -176,8 +179,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C1C574B1CEBBC1600786853 /* Info.plist in Resources */,
+				2C612D801D3C31E70074BD2D /* b6-2.mov in Resources */,
+				2C612D7E1D3C31680074BD2D /* b1-1.mov in Resources */,
 				2C1C57481CEBBC1600786853 /* LaunchScreen.xib in Resources */,
-				2C8D706B1CEBBBA300DAD584 /* b1-1.mov in Resources */,
 				2C1C57491CEBBC1600786853 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

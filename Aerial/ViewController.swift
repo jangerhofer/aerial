@@ -23,7 +23,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         let scrollViewHeight:CGFloat = self.scrollView.frame.height
         
         // Create movie player and append to subview of scroll view
-        let path = NSBundle.mainBundle().pathForResource("b1-1", ofType: "mov")
+        let path = NSBundle.mainBundle().pathForResource("b6-2", ofType: "mov")
         let url = NSURL(fileURLWithPath: path!)
         self.moviePlayer = MPMoviePlayerController(contentURL: url)
         
@@ -54,6 +54,10 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         // Test the offset and calculate the current page after scrolling ends
         let pageWidth:CGFloat = CGRectGetWidth(scrollView.frame)
         let currentPage:CGFloat = floor((scrollView.contentOffset.x-pageWidth/2)/pageWidth)+1
+    }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
     }
 
 }
